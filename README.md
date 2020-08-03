@@ -5,7 +5,7 @@
 Wazuh Agent as Docker Image.
 
 
-#### Run
+#### Build Image
 
     docker build -t fadhilthomas/wazuh-agent:3.13.1 .
 
