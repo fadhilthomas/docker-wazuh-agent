@@ -12,7 +12,7 @@ Wazuh Agent as Docker Image.
 
 #### Run
 
-    docker run -d --name wazuh_agent_1 -e AGENT_MANAGER=${MANAGER_IP} -e AGENT_NAME=${AGENT_NAME} -v /${NGINX_LOG_PATH}:/var/log/nginx/ fadhilthomas/wazuh-agent:3.13.1
+    docker run -d -e AGENT_MANAGER=${MANAGER_IP} -e AGENT_NAME=${AGENT_NAME} -v /${NGINX_LOG_PATH}:/var/log/nginx/ fadhilthomas/wazuh-agent:3.13.1
 
 
 #### Source
